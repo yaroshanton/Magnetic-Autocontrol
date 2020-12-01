@@ -1,0 +1,293 @@
+body {
+ font-family: "Montserrat", sans-serif;
+ font-size: 14px;
+ width: 1920px;
+}
+
+.container {
+ width: 1760px;
+ margin: 0 auto;
+}
+
+p {
+ padding: 0;
+ margin: 0;
+}
+
+a {
+ cursor: pointer;
+}
+
+/* HEADER */
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header_left {
+ display: flex;
+}
+
+.header_right {
+ display: flex;
+}
+
+.header_text {
+ display: flex;
+ margin-left: 78px;
+ color: #1e2432;
+ align-items: center;
+}
+
+.header_text a {
+ text-decoration: none;
+ color: #000;
+ font-weight: 600;
+}
+
+.header_text a:not(:last-child) {
+ margin-right: 40px;
+}
+
+.header_icons {
+ display: flex;
+ width: 75px;
+ justify-content: space-around;
+ align-items: center;
+ font-size: 21px;
+}
+
+.header_button {
+ border: none;
+ font-size: 12px;
+ text-transform: uppercase;
+ width: 210px;
+ height: 80px;
+ background-color: #5b61f5;
+ color: #fff;
+ margin-left: 40px;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+.header_button i {
+ margin-left: 6px;
+ font-size: 13px;
+}
+
+/* SECTION_AUTOCONTROL */
+
+.section_autocontrol {
+ display: flex;
+ background-color: #383955;
+ margin-bottom: 100px;
+}
+
+.autocontrol_left {
+ padding: 176px 0 197px 145px;
+}
+
+.left_first_word {
+ color: #fff;
+ font-size: 32px;
+ padding-bottom: 24px;
+}
+
+.left_second_word {
+ color: #fff;
+ font-size: 72px;
+ font-weight: 800;
+ padding-bottom: 37px;
+}
+
+.left_third_word {
+ font-weight: 500;
+ line-height: 32px;
+ color: #fff;
+ font-size: 24px;
+ padding-bottom: 48px;
+}
+
+.section_button {
+ border-radius: 10px;
+ border: none;
+ font-size: 12px;
+ text-transform: uppercase;
+ width: 215px;
+ height: 64px;
+ background-color: #5b61f5;
+ color: #fff;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+.section_button i {
+ margin-left: 6px;
+ font-size: 13px;
+}
+
+.autocontrol_right {
+ padding: 183px 0;
+}
+
+/* SECTION COMPANY */
+
+.company_text {
+ margin-bottom: 80px;
+}
+
+.company_text-one {
+ text-align: center;
+ line-height: 44px;
+ margin: 0 auto;
+ width: 609px;
+ font-weight: 600;
+ font-size: 32px;
+ padding-bottom: 24px;
+ color: #1e2432;
+}
+
+.company_text-second {
+ font-weight: 500;
+ text-align: center;
+ color: #687086;
+ letter-spacing: 0;
+ margin: 0 auto;
+ width: 790px;
+ font-size: 18px;
+ line-height: 24px;
+}
+
+.company_description {
+ background-color: #faf6f2;
+ margin-bottom: 100px;
+}
+
+.company_list {
+ padding: 80px 0;
+ margin: 0 130px;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+}
+
+.company_list_item {
+ display: flex;
+ width: 270px;
+}
+
+.company_list_item:not(:last-child) {
+ margin-right: 140px;
+}
+
+.company_list-text {
+ margin-left: 20px;
+}
+
+.company_list-text p {
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 22px;
+ color: #687086;
+ padding-bottom: 8px;
+}
+
+.company_list-href {
+ color: #1e2432;
+ font-size: 12px;
+ font-weight: 700;
+ text-decoration: none;
+}
+
+/* SECTION COMPANY ADVANTAGES*/
+
+.company_advantages_blocks {
+ width: 1140px;
+ margin: 0 auto 100px;
+}
+
+.advantages_text {
+ font-size: 32px;
+ font-weight: 600;
+ color: #1e2432;
+ width: 1140px;
+ margin: 0 auto 80px;
+}
+
+/* up */
+
+.advantages_first {
+ display: flex;
+ margin-bottom: 80px;
+}
+
+.advantages_first-left {
+ margin-right: 117px;
+ padding: 118px 0;
+ align-items: center;
+}
+
+.advantages_first-text {
+ display: flex;
+}
+
+.advantages_first-text:not(:last-child) {
+ margin-bottom: 80px;
+}
+.advantages_first_p {
+ border-left: 5px solid #000;
+ font-weight: 800;
+ height: 16px;
+ padding-left: 9px;
+ margin-top: 4px;
+ padding-right: 15px;
+ border-radius: 2px;
+}
+
+.advantages_second_p {
+ width: 413px;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 24px;
+ color: #687086;
+}
+
+/* down */
+
+.advantages_second {
+ display: flex;
+}
+
+.advantages_second-left {
+ margin-left: 117px;
+ padding: 56px 0 0 0;
+ align-items: center;
+}
+
+.advantages_second_block_p {
+ width: 413px;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 24px;
+ color: #687086;
+}
+
+/* SECTION advantages TOODAY */
+
+.section_advantages_tooday {
+ background-color: #faf6f2;
+}
+.advantages_tooday {
+ padding: 80px 0 0 140px;
+}
+
+.advantages_tooday p {
+ color: #1e2432;
+ margin-bottom: 40px;
+ font-weight: 600;
+ font-size: 32px;
+ line-height: 44px;
+ width: 709px;
+}
