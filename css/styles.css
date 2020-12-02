@@ -23,6 +23,16 @@ ul {
  margin: 0;
 }
 
+a:focus,
+a:active {
+ outline: none;
+}
+
+button:focus,
+button:active {
+ outline: none;
+}
+
 /* HEADER */
 
 .header {
@@ -70,11 +80,12 @@ ul {
  text-transform: uppercase;
  width: 210px;
  height: 80px;
- background-color: #5b61f5;
+ background: #5b61f5 url(../img/line.svg) 184px 36px no-repeat;
  color: #fff;
  margin-left: 40px;
  font-weight: 700;
  cursor: pointer;
+ background-size: 6px;
 }
 
 .header_button i {
@@ -115,6 +126,11 @@ ul {
  padding-bottom: 48px;
 }
 
+.autocontrol_right iframe {
+ width: 950px;
+ height: 530px;
+}
+
 .section_button {
  border-radius: 10px;
  border: none;
@@ -122,7 +138,7 @@ ul {
  text-transform: uppercase;
  width: 215px;
  height: 64px;
- background-color: #5b61f5;
+ background: #5b61f5;
  color: #fff;
  font-weight: 700;
  cursor: pointer;
@@ -426,7 +442,7 @@ ul {
  top: 588px;
  margin-left: 16px;
  background-color: #fff;
- padding: 10px 22px;
+ padding: 13px 15px;
  font-weight: 700;
  border: 3px solid #5b61f5;
  border-radius: 10px;
@@ -462,6 +478,7 @@ ul {
 
 .footer_right {
  width: 400px;
+ padding-right: 308px;
 }
 
 .footer_left p {
@@ -481,10 +498,6 @@ ul {
 }
 
 /* right */
-
-.footer_right {
- padding-right: 308px;
-}
 
 .footer_right p {
  font-weight: 600;
@@ -529,7 +542,7 @@ ul {
 
 .footer_button {
  background-color: #383955;
- padding: 17px 25px;
+ padding: 16px 17px;
  font-weight: 700;
  border: 3px solid #5b61f5;
  border-radius: 10px;
@@ -553,7 +566,6 @@ ul {
 .right_section_footer i {
  font-size: 38px;
  margin-right: 32px;
-
  padding-top: 80px;
 }
 
@@ -585,7 +597,10 @@ ul {
  width: 100px;
  height: 100px;
  border-radius: 50%;
- background-color: #383955;
+ background: #383955 url(../img/line.svg) center center no-repeat;
+ cursor: pointer;
+ transform: rotate(-90deg);
+ background-size: 12px;
 }
 
 .scroll_batton i {
