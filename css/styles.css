@@ -521,6 +521,10 @@ button:active {
  padding-left: 80px;
 }
 
+.slick-initialized .slick-slide {
+    height: 600px!important;
+}
+
 .footer_right {
  max-width: 400px;
 

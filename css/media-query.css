@@ -537,6 +537,17 @@ margin-right: 10px;
  .left_second_word {
   font-size: 40px;
  }
+
+ .services_list_item:nth-child(3) {
+     margin-right: 0;
+ }
+
+ .services_list_item:nth-child(6) {
+    margin-right: 0;
+ }
+
+ 
+
  .footer_right p {
      font-size: 14px;
      line-height: 18px;
