@@ -579,7 +579,8 @@ button:active {
 
 .input_name input {
  max-width: 400px;
-
+padding-left: 15px;
+box-sizing: border-box;
  width: 100%;
  height: 48px;
  margin-bottom: 16px;
