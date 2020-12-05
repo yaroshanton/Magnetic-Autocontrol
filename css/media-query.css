@@ -182,6 +182,8 @@ margin-right: 10px;
  }
 }
 
+
+
 @media (max-width: 768px) {
  body {
   max-width: 768px;
@@ -558,6 +560,12 @@ margin-right: 10px;
     .autocontrol_right {
         position: relative;
         top: 183px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
+    .services_list_item:nth-child(3) {
+        margin-right: 19px;
     }
 }
 
