@@ -117,6 +117,11 @@ margin-right: 12px;
   flex-wrap: wrap;
  }
 
+ .advantages_first-right {
+     order: 2;
+     margin: 0 auto;
+ }
+
  .advantages_text {
   text-align: center;
  }
@@ -337,6 +342,7 @@ margin-right: 10px;
 
  .advantages_first-right {
   margin: 0 auto;
+  order: 2;
  }
 
  .advantages_first-right img {
@@ -504,6 +510,7 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  text-decoration: none;
  }
 
  .right_section_footer {
@@ -523,6 +530,35 @@ margin-right: 10px;
  .advantages_second-left {
   padding-left: 20px;
  }
+}
+
+@media (min-width: 1440px) {
+    .objects_list_item img { 
+    width: 100%;
+    max-width: 390px;
+    }
+
+    .objects_list_item:not(:last-child) {
+        padding-right: 18px;
+    }
+}
+
+@media (min-width: 769px) {
+    .objects_list_item:not(:last-child)  {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1700px) and (min-width: 1440px){
+    .autocontrol_right iframe {
+        width: 100%;
+        height: 450px;
+    }
+
+    .autocontrol_right {
+        position: relative;
+        top: 183px;
+    }
 }
 
 
@@ -565,7 +601,7 @@ margin-right: 10px;
  }
 
  .fiiter_form {
-     max-width: 290px;
+     max-width: 282px;
      width: 100%;
      margin: 0 auto;
  }
@@ -580,7 +616,7 @@ margin-right: 10px;
  }
 
  .input_name input {
-  max-width: 290px;
+  max-width: 282px;
  }
 
  .input_email input {
