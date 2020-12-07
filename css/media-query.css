@@ -554,12 +554,12 @@ margin-right: 10px;
 @media (max-width: 1700px) and (min-width: 1440px){
     .autocontrol_right iframe {
         width: 100%;
-        height: 450px;
+        /* height: 450px; */
     }
 
     .autocontrol_right {
         position: relative;
-        top: 183px;
+        /* top: 183px; */
     }
 }
 
